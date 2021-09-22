@@ -1,0 +1,106 @@
+.window{
+  position: relative;
+  margin: 200px auto;
+  width: 552px;
+  min-height: 425px;
+  padding: 32px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  @media screen and (max-width: 768px){
+    width: 250px;
+    border-radius: 0;
+    margin: 0 auto;
+  }
+  .button{
+    position: absolute;
+    left: 562px;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    @media screen and (max-width: 768px){
+      left: 251px;
+    }
+  }
+  h1{
+    margin: 10px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #000000;
+    @media screen and (max-width: 768px){
+      font-size: 18px;
+    }
+  }
+  .p{
+    margin-top: 18px;
+    width: 488px;
+    min-height: 72px;
+    color: #808080;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    @media screen and (max-width: 768px){
+      font-size: 12px;
+      width: 240px;
+    }
+
+  }
+  .wap{
+    margin-top: 28px;
+    label{
+      font-weight: 600;
+      font-size: 14px;
+      color: black;
+      @media screen and (max-width: 768px){
+        display: block;
+      }
+    }
+    button{
+      margin-left: 32px;
+      width: 70px;
+      height: 36px;
+      left: 265px;
+      top: 312px;
+      color: black;
+      font-size: 14px;
+      font-weight: 500;
+      background: #EEF0F2;
+      border-radius: 50px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      @media screen and (max-width: 768px){
+        margin: 10px 0 0;
+      }
+
+    }
+    .active{
+      color: white;
+      background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+      border-radius: 50px;
+    }
+  }
+  .add{
+    margin-top: 40px;
+    width: 100%;
+    height: 56px;
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    box-shadow: 0 0 24px rgba(234, 0, 41, 0.33);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    transition: all .3s;
+    @media screen and (max-width: 768px){
+      font-size: 12px;
+    }
+  }
+  .add:hover{
+    background: red;
+  }
+}

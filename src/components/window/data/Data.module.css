@@ -1,0 +1,48 @@
+.Data {
+  margin-top: 24px;
+}
+.Data label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+@media screen and (max-width: 768px) {
+  .Data label {
+    font-size: 16px;
+  }
+}
+.Data input {
+  width: 100%;
+  display: block;
+  margin-top: 8px;
+  height: 40px;
+  border: 1px solid #DFE3E6;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  padding: 8px;
+  transition: all 0.3s;
+}
+.Data input:hover {
+  border: 1px solid black;
+}
+.Data .button {
+  height: 24px;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  margin-top: 8px;
+  color: red;
+  font-weight: 700;
+  font-size: 14px;
+  transition: alll 0.3s;
+}
+.Data .button:hover {
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=Data.module.css.map */

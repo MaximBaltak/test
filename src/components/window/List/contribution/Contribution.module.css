@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.el {
+  display: flex;
+  padding: 18px 0;
+  border-bottom: solid 1px #DFE3E6;
+}
+.el input {
+  display: none;
+}
+.el label:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: white;
+  border: 1px solid #DFE3E6;
+  box-sizing: border-box;
+  border-radius: 6px;
+  transform: translate(9px, 12px);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.el label:before:hover {
+  border: solid 1px black;
+}
+.el input:checked + label:before {
+  content: "✓";
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 15px;
+  background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+}
+.el .text {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+}
+.el .text span {
+  color: grey;
+}
+
+/*# sourceMappingURL=Contribution.module.css.map */
